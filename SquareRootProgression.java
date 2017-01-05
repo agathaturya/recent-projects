@@ -19,7 +19,7 @@ public class SquareRootProgression extends AbstractProgression<Double> {
 	}// end constructor
 
 	// preconditions:none
-	// postconditions:returns the next value
+	// postconditions:sets current to current's square root
 	protected void advance() {
 		current = Math.sqrt((Double) current);
 	}// end advance
