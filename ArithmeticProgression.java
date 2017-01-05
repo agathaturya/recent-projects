@@ -2,8 +2,9 @@
  * Agatha Turyahikayo
  * 11/21/16
  * ArithmeticProgression.java
- * each value is current + 1, represented as a
+ * each value is current + stepsize, represented as a
  *long
+ *
  */
 
 public class ArithmeticProgression extends AbstractProgression<Long> {
