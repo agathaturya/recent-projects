@@ -37,7 +37,7 @@ public class Die {
 		face = (int) (Math.random() * sides + 1);
 	}
 
-	// accescors
+	
 
 	// returns face
 	public int getFaceValue() {
@@ -47,7 +47,6 @@ public class Die {
 	public String toString() {
 		return "" + face;
 	}
-	//static method example, you dont need an object to print the message
 	
 	public static void message(){
 		System.out.println("this file helps you make a Die object");
