@@ -47,12 +47,12 @@ public class BirthdayParadox {
 				e.add(b.get(x));
 
 		}//end loop
-		// if the there are multiple birth, it prints the arraylist
+		// if the there are multiple birthdays, it prints the arraylist
 		if (c.size() > 0) {
 			System.out.println("These birthdays occured more than once");
 			System.out.println(c);
 		}
-		// prints the arraylist of not multipme birthdays
+		// prints the arraylist if there arent multiple birthdays
 		if (e.size() > 0) {
 			System.out
 					.println("These birthdays have not occured more than once");
