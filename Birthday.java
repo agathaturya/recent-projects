@@ -26,11 +26,11 @@ public class Birthday implements Comparable {
 
 	// constructor
 	// parameters are the month and the day
-	// if the parameters arent valid, the Birthday constructed is 4/20
+	// if the parameters arent valid, the Birthday constructed is october 31
 	public Birthday(int m, int d) {
 		if (!isValid(m, d)) {
-			month = 4;
-			day = 20;
+			month = 10;
+			day = 31;
 		}
 		if (isValid(m, d)) {
 			month = m;
