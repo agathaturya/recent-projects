@@ -2,8 +2,9 @@
  * Agatha Turyahikayo
  * 9/28/16
  * BirthdayParadox.java
- * User inputs birthdays
- * checks to see if there are multiples of the same birthday
+ * User inputs how many birthdays they want to test
+ * this class tests to see if the birthday paradox is true
+ * the birthday paradox states that there is a 50% chance 2 people share a birthday in a group of 23 people
  * Uses the Birthday Object
  */
 import java.util.ArrayList;
